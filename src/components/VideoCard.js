@@ -1,5 +1,4 @@
 import React from "react";
-import Dropdown from "react-bootstrap/Dropdown";
 import Card from "react-bootstrap/Card";
 
 export default class VideoCard extends React.Component {
@@ -10,9 +9,7 @@ export default class VideoCard extends React.Component {
 
     render() {
         return (
-            <div>
-                <h5>Hottest this month:</h5>
-            </div>
+            <div></div>
         );
     };
 };
