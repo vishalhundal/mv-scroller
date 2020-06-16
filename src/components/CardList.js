@@ -8,9 +8,16 @@ export default class CardList extends React.Component{
     };
 
     render() {
+        if (this.props.bold) {
+            var heading = <h5>{this.props.headerText}</h5>;
+        } else {
+            heading = <div>{this.props.headerText}</div>;
+        };
+
         return (
             <div>
-                <h5>{this.props.headerText}</h5>
+                {heading}
+                <VideoCard />
             </div>
         );
     };

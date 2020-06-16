@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
+import Image from "react-bootstrap/Image";
 
 export default class VideoCard extends React.Component {
     constructor(props) {
@@ -9,7 +10,9 @@ export default class VideoCard extends React.Component {
 
     render() {
         return (
-            <div></div>
+            <Card>
+                <Card.Body>This is some filler text.</Card.Body>
+            </Card>
         );
     };
 };
