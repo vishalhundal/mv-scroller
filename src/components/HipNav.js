@@ -49,10 +49,9 @@ export default class HipNav extends React.Component {
                             <Nav.Link href="#home">Upload</Nav.Link>
                             <Nav.Link href="#link">About</Nav.Link>
                         </Nav>
-                        <Button style={this.loginButton} variant="outline-dark" size="sm">LOGIN</Button>
-                        <Button style={this.signUpButton} variant="outline-light" size="sm">SIGN UP</Button>
-
                     </Navbar.Collapse>
+                    <Button style={this.loginButton} variant="outline-dark" size="sm">LOGIN</Button>
+                    <Button style={this.signUpButton} variant="outline-light" size="sm">SIGN UP</Button>
                 </Container>
             </Navbar>
         );
